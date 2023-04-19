@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+main{
+    background-color: #E9ECF8;
+    display: flex;
+    padding: 2rem;
+    height: 95vh;
+}
+#texto{
+    width: 80%;
+    height: 90vh;
+    
+}
+#texto div textarea{
+    width: 90%;
+    color: #0A3871;
+    height: 65vh;
+    font-size: x-large;
+    background-color: #E9ECF8;
+    border: none;
+    resize: none;
+    padding: 3rem;
+}
+
+#texto div textarea:focus{
+    outline: none;
+}
+
+#texto div img{
+    width: 15rem;
+    height: 1rem;
+}
+
+#botones{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+}
+#botones button{
+    width:40%;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border:1px solid  #0A3871;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+}
+#botones .active{
+    background-color: #0A3871;
+    color:#fff;
+}
+#botones button:hover{
+    box-shadow: inset 2px 2px 5px #343A40,5px 5px 15px #444242;
+    transform: scaleY(1.1);
+    transition: all .5s;
+}
+#side{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 85vh;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px #656262;
+    color: #343A40;
+    text-align: center;
+    gap: 1rem;
+}
+#side h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+#side p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#side img{
+    width: 80%;
+}
+
+footer{
+    height: 5vh;
+    background-color: #0A3871;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
