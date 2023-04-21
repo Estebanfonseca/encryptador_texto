@@ -10,10 +10,16 @@
     </head>
     <body>
         <main>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Por favor ingrese el texto a encriptar o desencriptar</p>
+                </div>
+            </div>
             <div id="texto">
                 <img src="assets/logo.svg" alt="logo" />
                 <div>
-                    <textarea title="text" pattern="[a-z ]*" oninput="this.value = this.value.replace(/[^a-z\n ]/g, '')">Ingrese el texto aqui</textarea>
+                    <textarea title="text" pattern="[a-z ]*" oninput="this.value = this.value.replace(/[^a-z\n ]/g, '')" placeholder="Ingrese el texto aqui"></textarea>
                     <img src="assets/texto.svg" alt="texto" />
                     <div id="botones">
                         <button class="active">Encriptar</button>
@@ -25,6 +31,12 @@
                 <img src="assets/muñeco.svg" alt="muñeco" />
                 <h3>Ningún mensaje fue encontrado</h3>
                 <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div id="side2">
+                <textarea class="texto" title="text"></textarea>
+                <div class="botones">
+                    <button id="btn">copiar</button>
+                </div>
             </div>
         </main>
         <footer>
