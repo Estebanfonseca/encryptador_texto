@@ -101,7 +101,7 @@ main{
     font-size: 18px;
 }
 #side2 textarea{
-    width: 100%;
+    width: 80%;
     height: 12rem;
     margin: 10px;
 }
@@ -205,6 +205,8 @@ footer{
     #botones button{
         width: 100%;
         padding: 1rem;
-        
+    }
+    footer{
+        height: 3rem;
     }
 }
